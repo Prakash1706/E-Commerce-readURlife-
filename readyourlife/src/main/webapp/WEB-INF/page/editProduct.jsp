@@ -9,7 +9,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Edit Product</title>
+<title>Edit Book</title>
 <link rel="icon" type="image/x-icon"
 	href="<c:url value="/resource/images/favicon1.png"/>" />
 <link rel="stylesheet"
@@ -23,7 +23,7 @@
 <body>
 	<%@ include file="navbar.jsp"%>
 	<div class="container" style="margin-bottom: 19px">
-		<h1 class="well">Update Product !</h1>
+		<h1 class="well">Update Book !</h1>
 		<div class="col-lg-12 well">
 			<div class="row">
 
@@ -34,23 +34,23 @@
 					<div class="col-sm-12">
 						<div class="row">
 							<div class="col-sm-6 form-group">
-								<form:label path="productId">Product Id</form:label>
+								<form:label path="productId">Book Id</form:label>
 								<form:input type="text" placeholder="Enter ProductId.."
 									class="form-control" path="productId" disabled="true"></form:input>
 							</div>
 							<div class="col-sm-6 form-group">
-								<form:label path="productName">Product Name</form:label>
+								<form:label path="productName">Book Name</form:label>
 								<form:input type="text" placeholder="Enter Product Name.."
 									class="form-control" path="productName"></form:input>
 							</div>
 						</div>
 						<div class="form-group">
-							<form:label path="productDescription">Product Description</form:label>
-							<form:textarea type="text" placeholder="Enter First Name.."
+							<form:label path="productDescription">Book Description</form:label>
+							<form:textarea type="text" placeholder="Enter Book Description.."
 								class="form-control" path="productId"></form:textarea>
 						</div>
 						<div class="form-group">
-							<form:label path="productCategory">Product Category</form:label>
+							<form:label path="productCategory">Book Category</form:label>
 							<form:radiobutton path="productCategory" value="Fiction" />
 							Fiction
 							<form:radiobutton path="productCategory" value="Non-Fiction" />
@@ -62,18 +62,18 @@
 						</div>
 						<div class="row">
 							<div class="col-sm-4 form-group">
-								<form:label path="productManufacturer">Product Manufacturer</form:label>
+								<form:label path="productManufacturer">Book Publisher</form:label>
 								<form:input type="text"
 									placeholder="Enter Product Manufacurer.." class="form-control"
 									path="productManufacturer"></form:input>
 							</div>
 							<div class="col-sm-4 form-group">
-								<form:label path="productPrice">Product Price</form:label>
+								<form:label path="productPrice">Book Price</form:label>
 								<form:input type="text" placeholder="Enter Product Price.."
 									class="form-control" path="productPrice"></form:input>
 							</div>
 							<div class="col-sm-4 form-group">
-								<form:label path="unitStock">Number of Products</form:label>
+								<form:label path="unitStock">Number of Books</form:label>
 								<form:input type="text" placeholder="Number of Products.."
 									class="form-control" path="unitStock"></form:input>
 							</div>
